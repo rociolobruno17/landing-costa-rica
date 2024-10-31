@@ -1,0 +1,283 @@
+body header .menu-principal {
+    background-color: #ffff;
+    padding: 20px;
+}
+
+body header .menu-principal .nav-link {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #291f1f;
+    font-weight: 500;
+    display: inline-block;
+    margin: 30px 0 10px 30px;
+    text-decoration: none;
+}
+
+body header .menu-principal h1 {
+    margin: 30px 220px 10px 30px;
+    font-family: "Playwrite CA", cursive;
+    font-size: 27px;
+    color: #3300cc; 
+    font-weight: 700;
+    display: inline-block;
+    text-decoration: none;
+}
+
+body header .menu-principal .nav-link .store {
+    display: inline-block;
+    margin: 30px 0 10px 200px;
+    text-decoration: none;
+}
+
+body header .menu-principal .nav-link:hover {
+    color: #3300cc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+body main #hero-container {
+    margin: 0px;
+    background-image: url(./hero-img.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content:flex-start;  /*main axis eje horizontal*/
+    align-items: stretch;  /*cross axis eje vertical con flex direction lo puedo ubicar horizontal, el flex direction me cambia el eje*/
+    flex-direction: column;  /*en columna*/
+}
+
+#hero-container #h2-p-button h2 {
+    margin: 30px 0px 0px 30px ;
+    padding-top: 200px;
+    display: flex;
+    font-family: "Archivo", sans-serif;
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+
+#h2-p-button p {
+    margin: 0px 0px 0px 30px ;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    color: #fffefe;
+    font-weight: 700;
+}
+
+
+#h2-p-button button {
+    margin: 30px 0px 0px 30px ;
+    display: flex;
+    background-color:  #3300cc; /* Color base */
+    border-color: #3300cc;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600p;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+#h2-p-button button:hover {
+    background-color: #14014b; /* Un azul más oscuro para el hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aumenta la sombra al hacer hover */
+  }
+  
+  #h2-p-button button:active {
+    background-color: #004299; /* Color aún más oscuro al hacer click */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Sombra más pequeña al hacer click */
+  }
+
+
+
+#home-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 300px;
+    width: 700px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+
+
+  #home-container #h3-p h3 {
+    margin: 30px ;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo", sans-serif;
+    font-size: 35px;
+    color: #291f1f;
+    font-weight: 800;
+
+  }
+  #home-container .linea-decorativa {
+    height: 4px;
+    background-color: #3300cc; /* Color de la línea */
+    width: 8%; /* Ancho de la línea */
+    margin: 20px auto; /* Centrando la línea */
+  }
+
+  #home-container #h3-p p {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #291f1f;
+    font-weight: 400;
+  }
+
+#alojamiento img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+  }
+
+ #paquetes h3 {
+    margin: 30px ;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo", sans-serif;
+    font-size: 35px;
+    color: #291f1f;
+    font-weight: 800;
+
+  }
+
+  #paquetes .linea-decorativa {
+    height: 4px;
+    background-color: #3300cc; /* Color de la línea */
+    width: 8%; /* Ancho de la línea */
+    margin: 20px auto; /* Centrando la línea */
+  }
+
+  .paquetes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1470px;
+    padding: 20px;
+  }
+  
+  .paquete1 {
+    margin: 50px;
+    display: flex;
+    flex-direction: column; /* Párrafo encima de la imagen */
+    align-items:center; /* Centra el contenido */
+  }
+  
+  .paquete1 img {
+    width: 500px; /* Ajusta el tamaño de la imagen si es necesario */
+    height: auto;
+  }
+
+  .paquete1 p {
+    text-align:justify; /* Centra el texto */
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #291f1f;
+    font-weight: 500;
+  }
+
+  .paquete2 {
+    margin: 50px;
+    display: flex;
+    flex-direction: column; /* Párrafo encima de la imagen */
+    align-items: center; /* Centra el contenido */
+    text-align: left; /* Centra el texto */
+  }
+  
+  .paquete2 img {
+    width: 500px; /* Ajusta el tamaño de la imagen si es necesario */
+    height: auto;
+  }
+
+  .paquete2 p {
+    text-align:justify; /* Centra el texto */
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #291f1f;
+    font-weight: 500;
+  }
+
+  .paquete3 {
+    margin: 50px;
+    display: flex;
+    flex-direction: column; /* Párrafo encima de la imagen */
+    align-items: center; /* Centra el contenido */
+    text-align: left; /* Centra el texto */
+  }
+  
+  .paquete3 img {
+    width: 500px; /* Ajusta el tamaño de la imagen si es necesario */
+    height: auto;
+  }
+
+  .paquete3 p {
+    text-align:justify; /* Centra el texto */
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #291f1f;
+    font-weight: 500;
+  }
+  
+  .paquete4 {
+    margin: 50px;
+    display: flex;
+    flex-direction: column; /* Párrafo encima de la imagen */
+    align-items: center; /* Centra el contenido */
+    text-align: left; /* Centra el texto */
+  }
+  
+  .paquete4 img {
+    width: 500px; /* Ajusta el tamaño de la imagen si es necesario */
+    height: auto;
+  }
+
+  .paquete4 p {
+    text-align:justify; /* Centra el texto */
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #291f1f;
+    font-weight: 500;
+  }
+  
+
+.paquetes-container button {
+    display: flex;
+    background-color:  #3300cc; /* Color base */
+    border-color: #3300cc;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600p;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.paquetes-container button:hover {
+    background-color: #14014b; /* Un azul más oscuro para el hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aumenta la sombra al hacer hover */
+  }
+  
+  .paquetes-container button:active {
+    background-color: #004299; /* Color aún más oscuro al hacer click */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Sombra más pequeña al hacer click */
+  }
